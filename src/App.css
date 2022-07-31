@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, 
+body {
+  font-size: 18px;
+  background: linear-gradient(270deg, #45073c, #db13ca, #e4d8ec, #e4d8ec);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 31s ease infinite;
+  -moz-animation: AnimationName 31s ease infinite;
+  -o-animation: AnimationName 31s ease infinite;
+  animation: AnimationName 31s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+
+h1 {
+  max-width: 940px;
+  font-size: 2.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+  letter-spacing: 5px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  text-decoration-color: salmon;
+  animation: bounce .15ms alternate infinite ease-in;
+  font-size:50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(238, 231, 237);
+  text-shadow: 
+	8px 8px #ec84a7,
+	20px 20px #61093f;
+  
+} 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+  
+
+
+
+
+
+  
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.contenedor-principal {
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

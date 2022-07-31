@@ -1,0 +1,93 @@
+
+.contenedor-testimonio {
+  width: 1170px;
+  height: 368px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: thistle; 
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 100% 100%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.imagen-testimonio {
+  height: 100%;
+  width: auto;
+}
+ 
+
+
+
+.contenedor-texto-testimonio {
+  text-align: center;
+  padding: 40px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.nombre-testimonio {
+  font-size: 1.3rem;
+}
+
+.cargo-testimonio {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+
+.texto-testimonio {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.logo-testimonio {
+    width: 150px;
+    height: 40;
+}
+
+.button.button.logo {
+box-shadow:black;  
+background-color: transparent;
+background-color: thistle;
+border-radius: 50%;
+background-blend-mode: color;
+border-color: #e73c7e;
+border: none;
+
+}
+
+.button.button.button.logo:hover{
+  background-color: #2f90b4b3;
+  opacity: 0.8;
+
+}
+
+
+
+
+    
+    
+    
+      
+    
+
